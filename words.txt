@@ -1,15 +1,3 @@
-Penguin
-Goat
-Panda
-Giraffe
-PolarBear
-Lion
-Tiger
-Elephant
-Meerkat
+Cat
+Dog
 Bear
-Toad
-Frog
-Alligator
-Stork
-Monkey
