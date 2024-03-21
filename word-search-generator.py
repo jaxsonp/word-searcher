@@ -9,7 +9,7 @@ def main():
 
     print("Generating words")
     with open("dictionary.txt", "r") as f:
-        dictionary = [line.strip() for line in f.readlines() if line != ""]
+        dictionary = [line.strip() for line in f.readlines() if line != "" and len(line) <= min(width, height)]
     words = random.sample(dictionary, n_words + 1)
 
     # initialization
